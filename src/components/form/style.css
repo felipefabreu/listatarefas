@@ -1,0 +1,46 @@
+ .form-tarefa{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.form-tarefa label{
+    font-size: 32px;
+    color: rgb(126, 126, 126);
+}
+
+/* 
+.form-tarefa div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+
+.form-tarefa label{
+    font-size: 32px;
+}
+
+.form-tarefa input{
+    height: 40px;
+    
+} */
+
+
+.form-tarefa button{
+    margin-top: 15px;  
+    background: #90d2c3;
+    color: #fff;
+    float: right;
+} 
+
+/* #babeee 	(186,190,238) */
+/* #7573b6 	(117,115,182)
+/* #70acb4 	(112,172,180)
+/* #90d2c3 	(144,210,195)
+/* #ecf4be */

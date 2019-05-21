@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+
+import Main from "./pages/main";
+import Header from './components/header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Lista de tarefas</h1>
+      <Header />
+      <Main />
     </div>
   );
 }
