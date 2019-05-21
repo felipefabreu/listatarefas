@@ -31,12 +31,17 @@
     
 } */
 
+.buttons{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
 
-.form-tarefa button{
-    margin-top: 15px;  
-    background: #9fd3c7;
-    color: #fff;
-    float: right;
+.btn-adicionar{
+    margin-left: 10px;
+    
 } 
 
 /* #babeee 	(186,190,238) */

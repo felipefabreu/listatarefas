@@ -1,0 +1,19 @@
+.lista-tarefas{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 20px auto 0;
+
+}
+
+.btn-new-task{
+    margin-top: 35px;
+    background: #385170;
+    color: #ddd;
+    
+}
+
+.btn-new-task:hover{
+    background: #385170;
+    color: #fff;
+}

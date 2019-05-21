@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 
 import "./style.css";
 
@@ -19,8 +19,13 @@ export default class Form extends Component{
                         <label>Descrição</label>
                         <textarea type="text" id="descricao-tarefa" className="form-control form-control-lg"></textarea>
                     </div>
+                    <div className="buttons">
+                        <Link to="/" className="btn btn-danger" >Cancelar</Link>
+
+                        <Link to="/" className="btn btn-success btn-adicionar">Adicionar</Link>
+                    </div>
                     
-                    <button className="btn">Adicionar</button>
+                    
 
                 </form>
             </div>
