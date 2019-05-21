@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 
 
 import Form from '../../components/form';
-
-
+import Tasklist from '../../components/tasklist';
 
 export default class Main extends Component{
 
@@ -12,6 +11,7 @@ export default class Main extends Component{
         return (
             <div className="lista-tarefas">
                 <Form />
+                <Tasklist />
             </div>
         );
     } 
