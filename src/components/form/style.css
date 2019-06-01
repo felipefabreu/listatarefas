@@ -11,6 +11,11 @@
 .form-tarefa label{
     font-size: 32px;
     color: rgb(126, 126, 126);
+    font-family: 'Lobster', cursive;
+}
+
+.form-tarefa textarea{
+    height: 200px;
 }
 
 /* 
@@ -41,8 +46,24 @@
 
 .btn-adicionar{
     margin-left: 10px;
-    
+    background: #385170;
+    color: #ddd;
+    transition: all 0.2s;
 } 
+.btn-adicionar:hover{
+    color: #ddd;
+    opacity: 0.7;
+}
+
+.btn-cancelar{
+    color: #385170;
+    background: #ddd;
+    transition: all 0.2s;
+}
+.btn-cancelar:hover{
+    opacity: 0.7;
+    color: #385170;
+}
 
 /* #babeee 	(186,190,238) */
 /* #7573b6 	(117,115,182)
